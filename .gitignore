@@ -1,0 +1,5 @@
+*.bak
+*.o
+.vscode/
+build/
+Match/Camera

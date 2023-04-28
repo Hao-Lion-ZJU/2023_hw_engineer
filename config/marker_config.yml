@@ -1,0 +1,80 @@
+%YAML:1.0
+
+
+
+# Target Color
+# all - 0
+# red - 1
+# blue - 2
+Target.color: 0
+#预处理
+pretreatment.hmin: 0
+pretreatment.hmax: 240
+pretreatment.blue_hmin: 85
+pretreatment.blue_hmax: 105
+pretreatment.red_hmin: 0
+pretreatment.red_hmax: 30
+pretreatment.smin: 0
+pretreatment.smax: 255
+pretreatment.vmin: 140
+pretreatment.vmax: 255
+
+Arrow.brightness_threshold: 40
+Arrow.template_extend_ratio: 0.9
+Arrow.Gama: 10
+#箭头
+Arrow.rect_min_area: 500
+Arrow.arrow_min_size: 6
+Arrow.rect_max_ratio: 7
+Arrow.mtach_step: 1
+Arrow.score_threshold: 0.2
+
+#大小箭头
+Arrow.arrow_max_lenth: 200
+
+
+# 枪口补偿
+小跳蛙:
+    distance_of_cam_fric.x: 0
+    distance_of_cam_fric.y: 42.0
+    distance_of_cam_fric.z: 102.0
+    
+
+小霸王:
+    distance_of_cam_fric.x: 0
+    distance_of_cam_fric.y: 57.0
+    distance_of_cam_fric.z: 44.9
+
+    imu_compensate.pitch  : 0.1
+    imu_compensate.yaw    : -0.15
+
+小汤圆:
+    distance_of_cam_fric.x: 0
+    distance_of_cam_fric.y: 57.0
+    distance_of_cam_fric.z: 44.9
+    distance_of_cam_spindle.x: 0
+    distance_of_cam_spindle.y: 0
+    distance_of_cam_spindle.z: 0
+
+    imu_compensate.pitch  : 0
+    imu_compensate.yaw    : 0
+
+小王霸: 
+    distance_of_cam_fric.x: 0
+    distance_of_cam_fric.y: 42.0
+    distance_of_cam_fric.z: 116.0
+    
+Ghost: 
+    distance_of_cam_fric.x: 60.0
+    distance_of_cam_fric.y: -30.9
+    distance_of_cam_fric.z: 60.0
+    
+
+# 小彩石枪口补偿
+小彩石上云台:
+    distance_of_cam_fric.y: 46.1
+    distance_of_cam_fric.z: 79.5
+
+小彩石下云台:
+    distance_of_cam_fric.y: -46.1
+    distance_of_cam_fric.z: 79.5

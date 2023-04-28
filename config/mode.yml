@@ -1,0 +1,50 @@
+%YAML:1.0
+
+target_color           : 0 # 0: all  1: blue  2: red
+
+# 可选项 
+# 哨兵 : '小彩石上云台' '小彩石下云台' '小彩石底盘' '小螺号'
+# 步兵 : '小跳蛙'
+robot_name      : '小汤圆'
+
+predict         : y
+auto_change     : n
+auto_shoot      : false
+debug           : n
+
+camera_type     : 0 # 0: mindvision camera  1: usb camera  2: video
+# camera_type = 0 时生效
+# 指定要打开的迈德相机的别名（通常多相机时使用），auto时为任意
+mv_camera_name  : 'auto'
+# camera_type = 2 时生效
+# 示例: /home/helloworld/source/video.mp4
+#   或  .../images  images下存放jpg或png格式图片（末尾不用加/）
+# video_path      : '/home/helloworld/Pictures/Screenshot from 2022-08-03 15-52-37.png'
+# video_path      : '/home/dangwi/code/sources/lhp.mp4'
+video_path      : '/home/haolion/test/rm/videosave/recording.mp4'
+
+big_template_path : '../demo/Big_arrow_template.jpg'
+
+small_template_path : '../demo/Small_arrow_template.jpg'
+
+small_net_path : '../demo/model.pb'
+
+enable_camera   : y
+enable_serial   : n
+# 如果要预测，下面show一个别开
+show_source_img : false
+show_debug      : true
+show_pose       : true
+show_predict    : false
+show_digitx     : false
+
+save_video      : false
+
+# yolov5 模型
+# engine_name     : "../config/yolov5_n640.engine"
+# engine_name     : "../config/car_n.engine"
+# engine_name     : "../config/new_nn.engine"
+# engine_name     : "../config/new_s.engine"
+engine_name     : "../config/all_FP16.engine"
+# yolox  模型
+# engine_name     : "../config/yolox_stable.engine"

@@ -1,0 +1,634 @@
+%YAML:1.0
+---
+小跳蛙:
+    NoAntiTop_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    NoAntiTop_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.,       0.,          0.,
+                0.,      0,       0.,
+                0.,      0.,       0     ]
+    NoAntiTop_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    NoAntiTop_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1,   0.,          0.,
+                0.,      0.0001,       0.,
+                0.,      0.,       0.0000000000004     ]
+    NoAntiTop_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.004 ]
+    NoAntiTop_FAR_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.04,   0.,          0.,
+                0.,      0.000001,       0.,
+                0.,      0.,       8e-12     ]
+    NoAntiTop_FAR_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.2 ]
+    NoAntiTop_Z_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    NoAntiTop_Z_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.,       0.,          0.,
+                0.,      0,       0.,
+                0.,      0.,       0     ]
+    NoAntiTop_Z_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    NoAntiTop_Z_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1,   0.,          0.,
+                0.,      0.0001,       0.,
+                0.,      0.,       0.0000000000004     ]
+    NoAntiTop_Z_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.004 ]
+    NoAntiTop_Z_FAR_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.04,   0.,          0.,
+                0.,      0.000001,       0.,
+                0.,      0.,       8e-12     ]
+    NoAntiTop_Z_FAR_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.2 ]
+    AntiTop_car_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    AntiTop_car_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      0.00001,       0.,
+                0.,      0.,       0.     ]
+    AntiTop_car_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    AntiTop_car_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.1,   0.,          0.,
+                0.,      0.1,       0.,
+                0.,      0.,       0.0000000000001     ]
+    AntiTop_car_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.001 ]
+    AntiTop_angle_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,      0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    AntiTop_angle_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      0.,       0.,
+                0.,      0.,       0.     ]
+    AntiTop_angle_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    AntiTop_angle_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.01,   0.,          0.,
+                0.,      0.00000003,       0.,
+                0.,      0.,       0.000000000000000000000000000000000000000001     ]
+    AntiTop_angle_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 10 ]
+小王霸:
+    NoAntiTop_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    NoAntiTop_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    NoAntiTop_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    NoAntiTop_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.0001,   0.,          0.,
+                0.,      0.00000001,       0.,
+                0.,      0.,       0.000000000001     ]
+    NoAntiTop_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.004 ]
+    NoAntiTop_FAR_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.04,   0.,          0.,
+                0.,      0.000001,       0.,
+                0.,      0.,       8e-12     ]
+    NoAntiTop_FAR_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.2 ]
+    NoAntiTop_Z_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    NoAntiTop_Z_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.,       0.,          0.,
+                0.,      0,       0.,
+                0.,      0.,       0     ]
+    NoAntiTop_Z_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    NoAntiTop_Z_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1,   0.,          0.,
+                0.,      0.0001,       0.,
+                0.,      0.,       0.0000000000004     ]
+    NoAntiTop_Z_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.004 ]
+    NoAntiTop_Z_FAR_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.04,   0.,          0.,
+                0.,      0.000001,       0.,
+                0.,      0.,       8e-12     ]
+    NoAntiTop_Z_FAR_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.2 ]
+    AntiTop_car_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    AntiTop_car_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    AntiTop_car_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    AntiTop_car_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.0001,   0.,          0.,
+                0.,      0.00000001,       0.,
+                0.,      0.,       0.000000000001     ]
+    AntiTop_car_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.004 ]
+    AntiTop_angle_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    AntiTop_angle_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    AntiTop_angle_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    AntiTop_angle_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.0001,   0.,          0.,
+                0.,      0.00000001,       0.,
+                0.,      0.,       0.000000000001     ]
+    AntiTop_angle_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.004 ]
+小霸王:
+    NoAntiTop_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    NoAntiTop_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 19.,   0.,          0.,
+                0.,      0.,       0.,
+                0.,      0.,       0.     ]
+    NoAntiTop_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    NoAntiTop_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1e0,   0.,          0.,
+                0.,      1e-3,       0.,
+                0.,      0.,       1e-10     ]
+    
+        
+    NoAntiTop_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 200 ]
+    NoAntiTop_FAR_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1e-1,   0.,          0.,
+                0.,      4e-4,       0.,
+                0.,      0.,         1e-9  ]
+    NoAntiTop_FAR_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 300 ]
+    NoAntiTop_Z_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    NoAntiTop_Z_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 100.,       0.,          0.,
+                0.,      1,       0.,
+                0.,      0.,       0.     ]
+    NoAntiTop_Z_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    NoAntiTop_Z_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1e-1,   0.,          0.,
+                0.,      1e-6,       0.,
+                0.,      0.,       1e-22     ]
+    NoAntiTop_Z_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 1e4 ]
+    NoAntiTop_Z_FAR_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.04,   0.,          0.,
+                0.,      0.000001,       0.,
+                0.,      0.,       8e-12     ]
+    NoAntiTop_Z_FAR_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.2 ]
+    AntiTop_car_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    AntiTop_car_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      0.00001,       0.,
+                0.,      0.,       0.     ]
+    AntiTop_car_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    AntiTop_car_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1e0,   0.,          0.,
+                0.,      1e-5,       0.,
+                0.,      0.,         1e-20     ]
+    AntiTop_car_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 200 ]
+    AntiTop_angle_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,      0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    AntiTop_angle_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      0.,       0.,
+                0.,      0.,       0.     ]
+    AntiTop_angle_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    AntiTop_angle_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1e-2,   0.,          0.,
+                0.,      1e-6,       0,
+                0.,      0.,       1e-16     ]
+    AntiTop_angle_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 1000 ]
+小汤圆:
+    NoAntiTop_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    NoAntiTop_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 19.,   0.,          0.,
+                0.,      0.,       0.,
+                0.,      0.,       0.     ]
+    NoAntiTop_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    NoAntiTop_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1e0,   0.,          0.,
+                0.,      1e-3,       0.,
+                0.,      0.,       1e-10     ]
+    
+        
+    NoAntiTop_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 200 ]
+    NoAntiTop_FAR_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1e-1,   0.,          0.,
+                0.,      1e-3,       0.,
+                0.,      0.,         1e-9  ]
+    NoAntiTop_FAR_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 300 ]
+    NoAntiTop_Z_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    NoAntiTop_Z_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 100.,       0.,          0.,
+                0.,      1,       0.,
+                0.,      0.,       0.     ]
+    NoAntiTop_Z_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    NoAntiTop_Z_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1e-3,   0.,          0.,
+                0.,      1e-8,       0.,
+                0.,      0.,       1e-22     ]
+    NoAntiTop_Z_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 1e4 ]
+    NoAntiTop_Z_FAR_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 0.04,   0.,          0.,
+                0.,      0.000001,       0.,
+                0.,      0.,       8e-12     ]
+    NoAntiTop_Z_FAR_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 0.2 ]
+    AntiTop_car_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    AntiTop_car_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      0.00001,       0.,
+                0.,      0.,       0.     ]
+    AntiTop_car_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    AntiTop_car_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1e0,   0.,          0.,
+                0.,      1e-5,       0.,
+                0.,      0.,         1e-20     ]
+    AntiTop_car_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 200 ]
+    AntiTop_angle_F: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,      0.,          0.,
+                0.,      1.,       0.,
+                0.,      0.,       1.     ]
+    AntiTop_angle_P: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1.,   0.,          0.,
+                0.,      0.,       0.,
+                0.,      0.,       0.     ]
+    AntiTop_angle_H: !!opencv-matrix
+        rows: 3
+        cols: 1
+        dt: f
+        data: [ 1.,
+                0.,
+                0.    ]
+    AntiTop_angle_Q: !!opencv-matrix
+        rows: 3
+        cols: 3
+        dt: f
+        data: [ 1e-2,   0.,          0.,
+                0.,      1e-6,       0,
+                0.,      0.,       1e-16     ]
+    AntiTop_angle_R: !!opencv-matrix
+        rows: 1
+        cols: 1
+        dt: f
+        data: [ 1000 ]
